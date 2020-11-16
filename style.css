@@ -1,0 +1,165 @@
+* {
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  max-width: 1920px;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/city.png);
+  background-size: cover;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  padding: 0;
+  width: 100%;
+  height: 15vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 95%;
+}
+.title {
+  font-size: 36px;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10rem;
+  margin-right: 23rem;
+}
+.menu-item__item {
+  margin-right: 3rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu-item__item:nth-child(4) {
+  margin-right: 0;
+}
+.img {
+  position: relative;
+  margin: 0;
+  width: 25px;
+  height: 23px;
+  background-image: url(./images/Forma\ 1.png);
+  background-repeat: no-repeat;
+}
+.img_bg {
+  position: absolute;
+  left: 18px;
+  bottom: 13px;
+  width: 12px;
+  height: 12px;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+}
+.btn {
+  width: 161px;
+  height: 60px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #ffffff;
+  margin-left: 1rem;
+  transform: skewX(-10deg);
+  cursor: pointer;
+}
+.description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.main {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  font-size: 160px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.button {
+  width: 231px;
+  margin-top: 4rem;
+  margin-bottom: 12rem;
+  height: 60px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #ffffff;
+  transform: skewX(-10deg);
+  cursor: pointer;
+}
+
+.link {
+  width: 22px;
+  height: 22px;
+  font-size: 35px;
+  margin: auto 0;
+  transform: rotate(90deg);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-item {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+.page__second-page {
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wrap {
+  width: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+}
+.desc {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(110, 110, 110);
+}
+.article {
+  margin: 0;
+  width: 41%;
+}
+.btn-2 {
+  margin: 1rem 0rem;
+}
+.pic {
+  width: 49%;
+  margin: 8rem 0rem 8rem 12rem;
+  /* width: 836px; */
+  height: 672px;
+  background-image: url(./images/tracker.png);
+  background-repeat: no-repeat;
+}
